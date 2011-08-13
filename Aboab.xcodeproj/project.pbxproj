@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6092EE0513F6EC850026A2ED /* Icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EDFF13F6EC850026A2ED /* Icon-settings.png */; };
+		6092EE0613F6EC850026A2ED /* Icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EE0013F6EC850026A2ED /* Icon-settings@2x.png */; };
+		6092EE0713F6EC850026A2ED /* Icon-spot~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EE0113F6EC850026A2ED /* Icon-spot~ipad.png */; };
+		6092EE0813F6EC850026A2ED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EE0213F6EC850026A2ED /* Icon.png */; };
+		6092EE0913F6EC850026A2ED /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EE0313F6EC850026A2ED /* Icon@2x.png */; };
+		6092EE0A13F6EC850026A2ED /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6092EE0413F6EC850026A2ED /* Icon~ipad.png */; };
+		60EB98F013F6DC3000CBF44D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EB98EF13F6DC3000CBF44D /* UIKit.framework */; };
+		60EB98F213F6DC3000CBF44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EB98F113F6DC3000CBF44D /* Foundation.framework */; };
+		60EB98F413F6DC3000CBF44D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EB98F313F6DC3000CBF44D /* CoreGraphics.framework */; };
+		60EB98FA13F6DC3000CBF44D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60EB98F813F6DC3000CBF44D /* InfoPlist.strings */; };
+		60EB98FC13F6DC3000CBF44D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB98FB13F6DC3000CBF44D /* main.m */; };
+		60EB990013F6DC3000CBF44D /* AboabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB98FF13F6DC3000CBF44D /* AboabAppDelegate.m */; };
+		60EB990313F6DC3000CBF44D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EB990113F6DC3000CBF44D /* MainWindow.xib */; };
+		60EB990613F6DC3000CBF44D /* AboabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB990513F6DC3000CBF44D /* AboabViewController.m */; };
+		60EB990913F6DC3000CBF44D /* AboabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EB990713F6DC3000CBF44D /* AboabViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6092EDFF13F6EC850026A2ED /* Icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings.png"; sourceTree = "<group>"; };
+		6092EE0013F6EC850026A2ED /* Icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings@2x.png"; sourceTree = "<group>"; };
+		6092EE0113F6EC850026A2ED /* Icon-spot~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-spot~ipad.png"; sourceTree = "<group>"; };
+		6092EE0213F6EC850026A2ED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6092EE0313F6EC850026A2ED /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6092EE0413F6EC850026A2ED /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		60EB98EB13F6DC3000CBF44D /* Aboab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aboab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EB98EF13F6DC3000CBF44D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60EB98F113F6DC3000CBF44D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60EB98F313F6DC3000CBF44D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60EB98F713F6DC3000CBF44D /* Aboab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aboab-Info.plist"; sourceTree = "<group>"; };
+		60EB98F913F6DC3000CBF44D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60EB98FB13F6DC3000CBF44D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60EB98FD13F6DC3000CBF44D /* Aboab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aboab-Prefix.pch"; sourceTree = "<group>"; };
+		60EB98FE13F6DC3000CBF44D /* AboabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboabAppDelegate.h; sourceTree = "<group>"; };
+		60EB98FF13F6DC3000CBF44D /* AboabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboabAppDelegate.m; sourceTree = "<group>"; };
+		60EB990213F6DC3000CBF44D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		60EB990413F6DC3000CBF44D /* AboabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboabViewController.h; sourceTree = "<group>"; };
+		60EB990513F6DC3000CBF44D /* AboabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboabViewController.m; sourceTree = "<group>"; };
+		60EB990813F6DC3000CBF44D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboabViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EB98E813F6DC3000CBF44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB98F013F6DC3000CBF44D /* UIKit.framework in Frameworks */,
+				60EB98F213F6DC3000CBF44D /* Foundation.framework in Frameworks */,
+				60EB98F413F6DC3000CBF44D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EB98E013F6DC2F00CBF44D = {
+			isa = PBXGroup;
+			children = (
+				60EB98F513F6DC3000CBF44D /* Aboab */,
+				60EB98EE13F6DC3000CBF44D /* Frameworks */,
+				60EB98EC13F6DC3000CBF44D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EB98EC13F6DC3000CBF44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EB98EB13F6DC3000CBF44D /* Aboab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EB98EE13F6DC3000CBF44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60EB98EF13F6DC3000CBF44D /* UIKit.framework */,
+				60EB98F113F6DC3000CBF44D /* Foundation.framework */,
+				60EB98F313F6DC3000CBF44D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60EB98F513F6DC3000CBF44D /* Aboab */ = {
+			isa = PBXGroup;
+			children = (
+				60EB98FE13F6DC3000CBF44D /* AboabAppDelegate.h */,
+				60EB98FF13F6DC3000CBF44D /* AboabAppDelegate.m */,
+				60EB990113F6DC3000CBF44D /* MainWindow.xib */,
+				60EB990413F6DC3000CBF44D /* AboabViewController.h */,
+				60EB990513F6DC3000CBF44D /* AboabViewController.m */,
+				60EB990713F6DC3000CBF44D /* AboabViewController.xib */,
+				60EB98F613F6DC3000CBF44D /* Supporting Files */,
+			);
+			path = Aboab;
+			sourceTree = "<group>";
+		};
+		60EB98F613F6DC3000CBF44D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6092EDFF13F6EC850026A2ED /* Icon-settings.png */,
+				6092EE0013F6EC850026A2ED /* Icon-settings@2x.png */,
+				6092EE0113F6EC850026A2ED /* Icon-spot~ipad.png */,
+				6092EE0213F6EC850026A2ED /* Icon.png */,
+				6092EE0313F6EC850026A2ED /* Icon@2x.png */,
+				6092EE0413F6EC850026A2ED /* Icon~ipad.png */,
+				60EB98F713F6DC3000CBF44D /* Aboab-Info.plist */,
+				60EB98F813F6DC3000CBF44D /* InfoPlist.strings */,
+				60EB98FB13F6DC3000CBF44D /* main.m */,
+				60EB98FD13F6DC3000CBF44D /* Aboab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EB98EA13F6DC3000CBF44D /* Aboab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EB990C13F6DC3000CBF44D /* Build configuration list for PBXNativeTarget "Aboab" */;
+			buildPhases = (
+				60EB98E713F6DC3000CBF44D /* Sources */,
+				60EB98E813F6DC3000CBF44D /* Frameworks */,
+				60EB98E913F6DC3000CBF44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aboab;
+			productName = Aboab;
+			productReference = 60EB98EB13F6DC3000CBF44D /* Aboab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EB98E213F6DC2F00CBF44D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 60EB98E513F6DC2F00CBF44D /* Build configuration list for PBXProject "Aboab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60EB98E013F6DC2F00CBF44D;
+			productRefGroup = 60EB98EC13F6DC3000CBF44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EB98EA13F6DC3000CBF44D /* Aboab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EB98E913F6DC3000CBF44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB98FA13F6DC3000CBF44D /* InfoPlist.strings in Resources */,
+				60EB990313F6DC3000CBF44D /* MainWindow.xib in Resources */,
+				60EB990913F6DC3000CBF44D /* AboabViewController.xib in Resources */,
+				6092EE0513F6EC850026A2ED /* Icon-settings.png in Resources */,
+				6092EE0613F6EC850026A2ED /* Icon-settings@2x.png in Resources */,
+				6092EE0713F6EC850026A2ED /* Icon-spot~ipad.png in Resources */,
+				6092EE0813F6EC850026A2ED /* Icon.png in Resources */,
+				6092EE0913F6EC850026A2ED /* Icon@2x.png in Resources */,
+				6092EE0A13F6EC850026A2ED /* Icon~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EB98E713F6DC3000CBF44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB98FC13F6DC3000CBF44D /* main.m in Sources */,
+				60EB990013F6DC3000CBF44D /* AboabAppDelegate.m in Sources */,
+				60EB990613F6DC3000CBF44D /* AboabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60EB98F813F6DC3000CBF44D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EB98F913F6DC3000CBF44D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60EB990113F6DC3000CBF44D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EB990213F6DC3000CBF44D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		60EB990713F6DC3000CBF44D /* AboabViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EB990813F6DC3000CBF44D /* en */,
+			);
+			name = AboabViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EB990A13F6DC3000CBF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60EB990B13F6DC3000CBF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60EB990D13F6DC3000CBF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aboab/Aboab-Prefix.pch";
+				INFOPLIST_FILE = "Aboab/Aboab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60EB990E13F6DC3000CBF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aboab/Aboab-Prefix.pch";
+				INFOPLIST_FILE = "Aboab/Aboab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EB98E513F6DC2F00CBF44D /* Build configuration list for PBXProject "Aboab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB990A13F6DC3000CBF44D /* Debug */,
+				60EB990B13F6DC3000CBF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EB990C13F6DC3000CBF44D /* Build configuration list for PBXNativeTarget "Aboab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EB990D13F6DC3000CBF44D /* Debug */,
+				60EB990E13F6DC3000CBF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EB98E213F6DC2F00CBF44D /* Project object */;
+}
